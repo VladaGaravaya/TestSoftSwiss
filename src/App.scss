@@ -18,6 +18,7 @@ main {
       )
       no-repeat center fixed,
     url("./images/earth-in-space.svg") no-repeat center fixed;
+  background-color: $background-color;
   background-size: cover;
 }
 
