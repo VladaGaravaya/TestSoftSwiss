@@ -1,36 +1,48 @@
 @import "../../styles/variables";
 
 .offers {
+  padding: 50px 0;
   h4 {
-    margin: 0;
-    padding-top: 50px;
     font-size: 18px;
     line-height: 21px;
     font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
-  .readMoreCta {
-    border: none;
-    text-decoration: none;
-    background-color: initial;
+  p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    opacity: 0.6;
+    margin: 0;
+  }
+  .readMoreLabel {
     color: $primary;
     font-size: 14px;
     line-height: 17px;
     font-weight: 700;
-    padding: 0;
-    padding-bottom: 50px;
 
     &:hover {
       cursor: pointer;
       opacity: 0.6;
     }
   }
-  .description {
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 700;
-    opacity: 0.6;
-    padding: 17px 0;
-    margin: 0;
+  .readMoreButton {
+    display: none;
+
+    &:checked {
+      & ~ .hiddenDescription {
+        height: auto;
+        max-height: 1000px;
+        transition: max-height 0.5s ease-in;
+      }
+    }
+  }
+  .hiddenDescription {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    margin-bottom: 20px;
   }
   .container {
     display: flex;
@@ -118,20 +130,20 @@
 
 @media #{$md-up} {
   .offers {
+    padding: 55px 0 53px;
     h4 {
       font-size: 24px;
       line-height: 28px;
-      padding-top: 55px;
+      margin-top: 55px;
+      margin-bottom: 13px;
     }
-    .description {
+    p {
       font-size: 16px;
       line-height: 19px;
-      padding: 13px 0 20px;
     }
-    .readMoreCta {
+    .readMoreLabel {
       font-size: 16px;
       line-height: 19px;
-      padding-bottom: 53px;
     }
     .container {
       div {
@@ -147,20 +159,23 @@
 
 @media #{$lg-up} {
   .offers {
+    padding: 58px 0 60px;
     h4 {
       font-size: 32px;
       line-height: 38px;
-      padding-top: 58px;
+      margin-top: 62px;
+      margin-bottom: 17px;
     }
-    .description {
+    p {
       font-size: 20px;
       line-height: 24px;
-      padding: 20px 0;
     }
-    .readMoreCta {
+    .hiddenDescription {
+      margin-bottom: 17px;
+    }
+    .readMoreLabel {
       font-size: 20px;
       line-height: 24px;
-      padding-bottom: 60px;
     }
     .container {
       div:first-child,

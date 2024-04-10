@@ -17,7 +17,6 @@ $screen-lg: 1248px;
 $screen-lg-min: $screen-lg;
 
 $screen: "only screen";
-$xs-up: $screen;
 $sm-up: "#{$screen} and (min-width: #{$screen-sm-min})";
 $md-up: "#{$screen} and (min-width: #{$screen-md-min})";
 $lg-up: "#{$screen} and (min-width: #{$screen-lg-min})";
@@ -27,8 +26,3 @@ $lg-up: "#{$screen} and (min-width: #{$screen-lg-min})";
 */
 $font-family: "Lato", sans-serif;
 $font-family-fallback: Arial sans-serif;
-
-/* 
-* ANIMATION 
-*/
-$main-timing-function: ease-in-out;
