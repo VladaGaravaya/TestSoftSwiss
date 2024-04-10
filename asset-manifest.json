@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TestSoftSwiss/static/css/main.c06f23db.css",
+    "main.js": "/TestSoftSwiss/static/js/main.215dbaeb.js",
+    "static/js/453.150dc45e.chunk.js": "/TestSoftSwiss/static/js/453.150dc45e.chunk.js",
+    "static/media/earth-in-space.svg": "/TestSoftSwiss/static/media/earth-in-space.7d89c103d4a40771f5cd.svg",
+    "static/media/earth.svg": "/TestSoftSwiss/static/media/earth.8faf95345240c78c4c4e3b27a68dad52.svg",
+    "static/media/rocket.svg": "/TestSoftSwiss/static/media/rocket.a4389852c90b9d43571cac86eea0e8ab.svg",
+    "static/media/offer3-bg.svg": "/TestSoftSwiss/static/media/offer3-bg.6f6e1d73bdfcf95694f9.svg",
+    "static/media/offer4-bg.svg": "/TestSoftSwiss/static/media/offer4-bg.a303b2e162866a538411.svg",
+    "static/media/offer1-bg.svg": "/TestSoftSwiss/static/media/offer1-bg.897a61f34df01be6ebf3.svg",
+    "static/media/offer2-bg.svg": "/TestSoftSwiss/static/media/offer2-bg.a5f9e2feaadde4a72b57.svg",
+    "static/media/logo.svg": "/TestSoftSwiss/static/media/logo.4cee0de59492de8c5ba2748793df6f86.svg",
+    "static/media/shop.svg": "/TestSoftSwiss/static/media/shop.0a7e523a25224505b6068d3e17e65dcd.svg",
+    "static/media/burger.svg": "/TestSoftSwiss/static/media/burger.8ade06b395c934789d6292b2db85af55.svg",
+    "index.html": "/TestSoftSwiss/index.html",
+    "main.c06f23db.css.map": "/TestSoftSwiss/static/css/main.c06f23db.css.map",
+    "main.215dbaeb.js.map": "/TestSoftSwiss/static/js/main.215dbaeb.js.map",
+    "453.150dc45e.chunk.js.map": "/TestSoftSwiss/static/js/453.150dc45e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c06f23db.css",
+    "static/js/main.215dbaeb.js"
+  ]
+}
