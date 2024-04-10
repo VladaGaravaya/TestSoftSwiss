@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TestSoftSwiss/static/css/main.c06f23db.css",
-    "main.js": "/TestSoftSwiss/static/js/main.215dbaeb.js",
+    "main.css": "/TestSoftSwiss/static/css/main.5cb94d1e.css",
+    "main.js": "/TestSoftSwiss/static/js/main.45f548a2.js",
     "static/js/453.150dc45e.chunk.js": "/TestSoftSwiss/static/js/453.150dc45e.chunk.js",
     "static/media/earth-in-space.svg": "/TestSoftSwiss/static/media/earth-in-space.7d89c103d4a40771f5cd.svg",
     "static/media/earth.svg": "/TestSoftSwiss/static/media/earth.8faf95345240c78c4c4e3b27a68dad52.svg",
@@ -14,12 +14,13 @@
     "static/media/shop.svg": "/TestSoftSwiss/static/media/shop.0a7e523a25224505b6068d3e17e65dcd.svg",
     "static/media/burger.svg": "/TestSoftSwiss/static/media/burger.8ade06b395c934789d6292b2db85af55.svg",
     "index.html": "/TestSoftSwiss/index.html",
-    "main.c06f23db.css.map": "/TestSoftSwiss/static/css/main.c06f23db.css.map",
-    "main.215dbaeb.js.map": "/TestSoftSwiss/static/js/main.215dbaeb.js.map",
+    "static/media/cross.svg": "/TestSoftSwiss/static/media/cross.5921a59e29d6f5a1b6de60ea32800b5e.svg",
+    "main.5cb94d1e.css.map": "/TestSoftSwiss/static/css/main.5cb94d1e.css.map",
+    "main.45f548a2.js.map": "/TestSoftSwiss/static/js/main.45f548a2.js.map",
     "453.150dc45e.chunk.js.map": "/TestSoftSwiss/static/js/453.150dc45e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06f23db.css",
-    "static/js/main.215dbaeb.js"
+    "static/css/main.5cb94d1e.css",
+    "static/js/main.45f548a2.js"
   ]
 }
