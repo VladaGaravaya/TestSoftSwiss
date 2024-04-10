@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.container {
+  margin: 0 20px;
+}
+
+@media #{$md-up} {
+  .container {
+    margin: 0 30px;
+  }
+}
+
+@media #{$lg-up} {
+  .container {
+    max-width: 1108px;
+    margin: auto;
+  }
+}

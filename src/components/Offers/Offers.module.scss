@@ -1,0 +1,177 @@
+@import "../../styles/variables";
+
+.offers {
+  h4 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+  }
+  .readMoreCta {
+    border: none;
+    text-decoration: none;
+    background-color: initial;
+    color: $primary;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    padding: 0;
+    padding-bottom: 50px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+  .description {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    opacity: 0.6;
+    padding: 17px 0;
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    div {
+      flex: 100%;
+      align-content: flex-end;
+      background-size: cover;
+      height: 280px;
+      border-radius: 10px;
+      padding: 35px;
+
+      h2 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        margin-bottom: 22px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        margin: 22px 0;
+      }
+    }
+
+    div:first-child,
+    div:last-child {
+      flex: 100%;
+    }
+
+    div:first-child {
+      background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(15, 20, 32, 0.79) 100%
+          )
+          no-repeat center,
+        url("../../images/offer1-bg.svg") no-repeat center;
+      background-size: cover;
+    }
+
+    div:nth-child(2) {
+      background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(15, 20, 32, 0.79) 100%
+          )
+          no-repeat center,
+        url("../../images/offer2-bg.svg") no-repeat center;
+      background-size: cover;
+    }
+
+    div:nth-child(3) {
+      background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(15, 20, 32, 0.79) 100%
+          )
+          no-repeat center,
+        url("../../images/offer3-bg.svg") no-repeat center;
+      background-size: cover;
+    }
+
+    div:last-child {
+      background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(15, 20, 32, 0.79) 100%
+          )
+          no-repeat center,
+        url("../../images/offer4-bg.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+}
+
+@media #{$md-up} {
+  .offers {
+    h4 {
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 55px;
+    }
+    .description {
+      font-size: 16px;
+      line-height: 19px;
+      padding: 13px 0 20px;
+    }
+    .readMoreCta {
+      font-size: 16px;
+      line-height: 19px;
+      padding-bottom: 53px;
+    }
+    .container {
+      div {
+        flex: 25%;
+      }
+      div:first-child,
+      div:last-child {
+        flex: 25%;
+      }
+    }
+  }
+}
+
+@media #{$lg-up} {
+  .offers {
+    h4 {
+      font-size: 32px;
+      line-height: 38px;
+      padding-top: 58px;
+    }
+    .description {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 20px 0;
+    }
+    .readMoreCta {
+      font-size: 20px;
+      line-height: 24px;
+      padding-bottom: 60px;
+    }
+    .container {
+      div:first-child,
+      div:last-child {
+        flex: 100%;
+
+        h2 {
+          font-size: 72px;
+          line-height: 72px;
+        }
+      }
+    }
+  }
+}

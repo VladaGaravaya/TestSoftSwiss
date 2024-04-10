@@ -1,0 +1,34 @@
+$primary: #ebff00;
+$secondary: #ff70d9;
+$background-color: #304571;
+$black: #000000;
+$white: #ffffff;
+
+// Small screen
+$screen-sm: 360px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen
+$screen-md: 768px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 1248px;
+$screen-lg-min: $screen-lg;
+
+$screen: "only screen";
+$xs-up: $screen;
+$sm-up: "#{$screen} and (min-width: #{$screen-sm-min})";
+$md-up: "#{$screen} and (min-width: #{$screen-md-min})";
+$lg-up: "#{$screen} and (min-width: #{$screen-lg-min})";
+
+/* 
+* TYPOGRAPHY 
+*/
+$font-family: "Lato", sans-serif;
+$font-family-fallback: Arial sans-serif;
+
+/* 
+* ANIMATION 
+*/
+$main-timing-function: ease-in-out;

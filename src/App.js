@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.scss';
+import Header from "./components/Header/Header";
+import Container from "./components/Container/Container";
+
+import { ReactComponent as RocketIcon } from "./images/rocket.svg";
+
+import "./App.scss";
+import Banner from "./components/Banner/Banner";
+import Offers from "./components/Offers/Offers";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app">
+      <nav>
+        <Container>
+          <Header />
+        </Container>
+      </nav>
+      <main>
+        <Container>
+          <Banner />
+        </Container>
+      </main>
+      <section>
+        <Container>
+          <Offers />
+        </Container>
+      </section>
+      <footer>
+        <RocketIcon />
+        <p>Exciting space adventure!</p>
+      </footer>
     </div>
   );
 }

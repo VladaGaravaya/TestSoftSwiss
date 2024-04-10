@@ -1,0 +1,84 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.burgerMenu {
+  display: block;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+  gap: 55px;
+  li {
+    a {
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menuItem {
+      &:hover {
+        background-image: linear-gradient(
+          98.25deg,
+          #ebff00 18.56%,
+          #ff70d9 76.02%
+        );
+        background-clip: text;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 100%;
+  }
+  100% {
+      background-size: 0%;
+  }
+}
+
+@keyframes rainbow-text-simple-animation {
+  0% {
+      background-size: 0%;
+  }
+  100% {
+      background-size: 100%;
+  }
+}
+
+.logo {
+  width: 71px;
+  height: 24px;
+}
+
+@media #{$md-up} {
+  .burgerMenu {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .container {
+    height: 80px;
+  }
+}
+
+@media #{$lg-up} {
+  .logo {
+    width: 104px;
+    height: 35px;
+  }
+}
